@@ -16,6 +16,8 @@
 
 <a href="https://jesusjacky.github.io/Grimorio-descargas/"><img src="avance.gif" alt="Grimorio en acción" width="900"></a>
 
+**[▶ Ver el vídeo completo (1:09)](https://jesusjacky.github.io/Grimorio-descargas/)**<br><sub>Música: «Vampire's Piano», de TAD, y «Epic Endgame Cinematic», de cynicmusic (CC0)</sub>
+
 </div>
 
 ---

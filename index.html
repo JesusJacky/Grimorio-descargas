@@ -24,7 +24,9 @@
   .marco { border: 3px solid var(--oro); outline: 1px solid #5a1a12; outline-offset: 5px; background: #000;
     box-shadow: 0 0 60px rgba(163,35,29,.45); margin: 0 6px; }
   .marco img, .marco video { display: block; width: 100%; height: auto; }
-  .botones { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin: 34px 0 34px; }
+  .marco video { aspect-ratio: 16 / 9; background: #000; }
+  .creditos { text-align: center; font-size: 14px; color: var(--suave); margin: 14px 0 0; }
+  .botones { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin: 30px 0 34px; }
   .boton { display: inline-flex; align-items: center; gap: 10px; padding: 15px 28px; font: 700 17px/1 Cinzel, serif; letter-spacing: .05em;
     text-decoration: none; color: var(--tinta); background: linear-gradient(#ecc66e, var(--oro)); border: 2px solid #7a5a1c;
     border-radius: 4px; box-shadow: 0 4px 0 #5a3f10, 0 8px 22px rgba(0,0,0,.5); transition: transform .1s; }
@@ -56,7 +58,13 @@
   <p class="lema">Fichas que se calculan solas, dados 3D y partidas online con tu grupo.</p>
   <p class="juegos">MUNDO DE TINIEBLAS · VAMPIRO · HOMBRE LOBO · MAGO<br>DUNGEONS &amp; DRAGONS · 5ª · 5.5 · 3.5</p>
 
-  <div class="marco"><img src="avance.gif" alt="Grimorio en acción: fichas, dados 3D, transformaciones y D&amp;D"></div>
+  <div class="marco">
+    <video controls playsinline preload="metadata" poster="capturas/02-ficha-vampiro.jpg" controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false">
+      <source src="video/Grimorio-promo.mp4" type="video/mp4">
+      Tu navegador no puede reproducir el vídeo.
+    </video>
+  </div>
+  <p class="creditos">Música: «Vampire's Piano», de TAD, y «Epic Endgame Cinematic», de cynicmusic (CC0)</p>
 
   <div class="botones">
     <a class="boton" href="https://github.com/JesusJacky/Grimorio-descargas/releases/latest">⬇ Descargar gratis</a>
