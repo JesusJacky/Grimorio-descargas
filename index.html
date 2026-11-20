@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grimorio · tu mesa de rol</title>
+<meta name="description" content="Grimorio: fichas de rol que se calculan solas, dados 3D y partidas online con tu grupo. Mundo de Tinieblas y Dungeons & Dragons. Gratis y en castellano.">
+<link rel="icon" href="icono.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@600;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root { --fondo: #150907; --pergamino: #f3e6c8; --texto: #f6ecd6; --suave: #d9c39c; --sangre: #a3231d; --oro: #d4a64a; --tinta: #2a120c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: var(--texto); font: 400 19px/1.6 "EB Garamond", Georgia, serif;
+    background: radial-gradient(1100px 600px at 50% -10%, #4a1410 0%, var(--fondo) 62%) fixed, var(--fondo); }
+  .contenedor { max-width: 1060px; margin: 0 auto; padding: 32px 16px 56px; }
+  header { display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap; text-align: center; }
+  header img { width: 88px; height: 88px; filter: drop-shadow(0 0 18px rgba(212,166,74,.45)); }
+  h1 { margin: 0; font: 700 clamp(38px, 7vw, 68px)/1.1 "Cinzel Decorative", serif; color: var(--oro);
+    text-shadow: 0 2px 0 #5a1a12, 0 0 30px rgba(212,166,74,.35); letter-spacing: .02em; }
+  .lema { text-align: center; font-size: clamp(20px, 2.6vw, 25px); font-weight: 600; margin: 16px 0 4px; }
+  .juegos { text-align: center; color: var(--suave); font: 600 14px/1.5 Cinzel, serif; letter-spacing: .08em; margin: 0 0 26px; }
+  .marco { border: 3px solid var(--oro); outline: 1px solid #5a1a12; outline-offset: 5px; background: #000;
+    box-shadow: 0 0 60px rgba(163,35,29,.45); margin: 0 6px; }
+  .marco img, .marco video { display: block; width: 100%; height: auto; }
+  .botones { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin: 34px 0 34px; }
+  .boton { display: inline-flex; align-items: center; gap: 10px; padding: 15px 28px; font: 700 17px/1 Cinzel, serif; letter-spacing: .05em;
+    text-decoration: none; color: var(--tinta); background: linear-gradient(#ecc66e, var(--oro)); border: 2px solid #7a5a1c;
+    border-radius: 4px; box-shadow: 0 4px 0 #5a3f10, 0 8px 22px rgba(0,0,0,.5); transition: transform .1s; }
+  .boton:hover { transform: translateY(-2px); }
+  .boton.secundario { color: var(--texto); background: linear-gradient(#b52d25, #7c1814); border-color: #4a0e0b; box-shadow: 0 4px 0 #3a0a08, 0 8px 22px rgba(0,0,0,.5); }
+  h2 { font: 700 clamp(22px, 3vw, 28px)/1.2 Cinzel, serif; color: var(--oro); text-align: center; margin: 40px 0 16px; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .tarjeta { background: var(--pergamino); color: var(--tinta); border: 1px solid #c9ad74; border-radius: 4px; padding: 16px 18px;
+    box-shadow: inset 0 0 30px rgba(120,80,30,.18), 0 6px 18px rgba(0,0,0,.45); }
+  .tarjeta b { display: block; font: 700 17px/1.3 Cinzel, serif; color: #7c1814; margin-bottom: 6px; }
+  .tarjeta span { font-size: 17px; }
+  .capturas { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .capturas figure { margin: 0; }
+  .capturas img { width: 100%; display: block; border: 2px solid #6b4a1e; }
+  .capturas figcaption { color: var(--suave); font-size: 16px; text-align: center; margin-top: 6px; }
+  ul.curiosidades { max-width: 820px; margin: 0 auto; padding-left: 22px; }
+  ul.curiosidades li { margin: 6px 0; }
+  .aviso { border: 1px solid var(--oro); background: rgba(212,166,74,.08); padding: 14px 18px; font-size: 17px; color: var(--suave); margin-top: 34px; }
+  .aviso b { color: var(--texto); }
+  footer { text-align: center; color: var(--suave); font-size: 15px; margin-top: 34px; }
+  footer small { display: block; font-size: 12px; line-height: 1.5; margin-top: 8px; color: #bfa57e; }
+  a { color: #f0c66a; }
+  @media (max-width: 520px) { body { font-size: 18px; } .boton { padding: 14px 20px; font-size: 15px; } .marco { margin: 0; outline-offset: 3px; } }
+</style>
+</head>
+<body>
+<div class="contenedor">
+  <header><img src="icono.png" alt=""><h1>Grimorio</h1></header>
+  <p class="lema">Fichas que se calculan solas, dados 3D y partidas online con tu grupo.</p>
+  <p class="juegos">MUNDO DE TINIEBLAS · VAMPIRO · HOMBRE LOBO · MAGO<br>DUNGEONS &amp; DRAGONS · 5ª · 5.5 · 3.5</p>
+
+  <div class="marco"><img src="avance.gif" alt="Grimorio en acción: fichas, dados 3D, transformaciones y D&amp;D"></div>
+
+  <div class="botones">
+    <a class="boton" href="https://github.com/JesusJacky/Grimorio-descargas/releases/latest">⬇ Descargar gratis</a>
+    <a class="boton secundario" href="https://github.com/JesusJacky/Grimorio-descargas">Más información</a>
+  </div>
+
+  <div class="rejilla">
+    <div class="tarjeta"><b>📜 Fichas como en papel</b><span>Se rellenan con un clic y completan lo que marca el libro. Con retrato y en PDF.</span></div>
+    <div class="tarjeta"><b>🎲 Dados 3D</b><span>Ruedan en grande en el centro de la pantalla. 21 diseños, o crea el tuyo.</span></div>
+    <div class="tarjeta"><b>🌐 Juega online</b><span>Sala con un código de 6 letras, sin cuentas: roles, tiradas ocultas, iniciativa y mapa.</span></div>
+    <div class="tarjeta"><b>🐺 Transformaciones</b><span>Crinos, Forma Horrenda… La ficha y las tiradas cambian solas.</span></div>
+    <div class="tarjeta"><b>🐉 D&amp;D que calcula solo</b><span>CA, ataques, conjuros… y pasa el ratón para ver de dónde sale cada punto.</span></div>
+    <div class="tarjeta"><b>📚 Reglas a un clic</b><span>Chuleta, disciplinas, conjuros y rasgos de clase, con buscador.</span></div>
+  </div>
+
+  <h2>Así se ve</h2>
+  <div class="capturas">
+    <figure><img src="capturas/02-ficha-vampiro.jpg" alt="Ficha de Vampiro" loading="lazy"><figcaption>Una ficha de Vampiro con su retrato</figcaption></figure>
+    <figure><img src="capturas/04-tirada-dados.jpg" alt="Tirada de dados 3D" loading="lazy"><figcaption>La tirada, en grande</figcaption></figure>
+    <figure><img src="capturas/07-transformacion-crinos.jpg" alt="Transformación en Crinos" loading="lazy"><figcaption>Transformación en Crinos</figcaption></figure>
+    <figure><img src="capturas/15-dnd-calculo-desglose.jpg" alt="Cálculo automático de D&amp;D" loading="lazy"><figcaption>D&amp;D: de dónde sale cada punto</figcaption></figure>
+    <figure><img src="capturas/12-dnd-generar-caracteristicas.jpg" alt="Generar características" loading="lazy"><figcaption>Genera tus características</figcaption></figure>
+    <figure><img src="capturas/08-dados.jpg" alt="Diseños de dados" loading="lazy"><figcaption>21 diseños de dados</figcaption></figure>
+  </div>
+
+  <h2>Curiosidades</h2>
+  <ul class="curiosidades">
+    <li>Al abrirlo te toca un <b>nombre de fantasía al azar</b> para la sala: «Nerys del Faro Perdido», «Halvar del Último Invierno»…</li>
+    <li>Los poderes de <b>niveles 6 a 9</b> de las disciplinas están ocultos para no destripar sorpresas.</li>
+    <li>En D&amp;D, el generador de características <b>solo deja usar los métodos oficiales</b> de tu edición.</li>
+    <li>Tres estilos: <b>manuscrito, taberna y bosque</b>. Y un cuaderno con aspecto de libro antiguo para tus notas.</li>
+  </ul>
+
+  <p class="aviso"><b>Gratis y en castellano.</b> Windows 10/11 (64 bits) —no se instala: un solo archivo—, Android 5.1 o superior y Linux. Tus fichas se guardan en tu PC; sin cuentas ni publicidad.
+    Requisitos e instrucciones en la <a href="https://github.com/JesusJacky/Grimorio-descargas">página de descargas</a>.</p>
+
+  <footer>Un proyecto personal de JesusJacky · Aplicación de fans, gratuita y no oficial.<br>🕯️ <i>Que los dados te sean propicios.</i>
+    <small>Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. All rights reserved. For more information please visit worldofdarkness.com.<br>
+    This work includes material taken from the System Reference Document 5.1 ("SRD 5.1") by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode. Parte del material de la 3.5 procede del SRD 3.5 (Open Game License 1.0a).<br>
+    Dungeons &amp; Dragons es una marca de Wizards of the Coast; Mundo de Tinieblas y sus juegos, de Paradox Interactive AB. Grimorio no está afiliado a ninguna de las dos.</small></footer>
+</div>
+</body>
+</html>

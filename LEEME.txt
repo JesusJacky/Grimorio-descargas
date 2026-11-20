@@ -1,0 +1,76 @@
+==========================================================
+  GRIMORIO · tu mesa de rol
+  Gratis, en castellano y no oficial (aplicación de fans).
+==========================================================
+
+QUÉ ES
+------
+Grimorio es una mesa de rol para el ordenador y el móvil. Creas las fichas de
+tus personajes como en papel, pero se rellenan y se calculan solas; tiras los
+dados en 3D, en grande; y juegas online con tu grupo con un código de 6 letras.
+
+Juegos: Mundo de Tinieblas (Vampiro, Hombre Lobo y Mago, con reglas V20 o
+antiguas) y Dungeons & Dragons (5ª edición, 5.5 y 3.5).
+
+REQUISITOS
+----------
+Windows:  Windows 10 u 11 de 64 bits · 4 GB de memoria (8 GB recomendados).
+Android:  Android 5.1 o más nuevo.
+Linux:    64 bits (Ubuntu 22.04, Linux Mint 21, Debian 12 o similares).
+Internet: solo para las salas online y para crear retratos con IA.
+
+CÓMO EMPEZAR EN WINDOWS
+-----------------------
+1. Descarga «Grimorio.exe» de la última versión.
+2. Haz doble clic. No se instala: es un solo archivo; puedes guardarlo donde
+   quieras (en el Escritorio, por ejemplo).
+3. AVISO NORMAL: Windows puede enseñar una pantalla azul que dice
+   «Windows protegió su PC». Sale porque la aplicación no tiene un certificado
+   de firma (cuesta dinero cada año y es un proyecto personal y gratuito), no
+   porque tenga nada malo. Pulsa «Más información» y después
+   «Ejecutar de todas formas».
+4. Elige el juego y sigue la Guía de uso que sale al principio.
+
+Tus fichas se guardan en la carpeta Documentos\Grimorio.
+
+CÓMO EMPEZAR EN ANDROID
+-----------------------
+1. Descarga «Grimorio.apk» en el móvil y ábrelo.
+2. Si te lo pide, permite instalar aplicaciones de esta fuente.
+3. Las versiones nuevas se instalan encima sin borrar tus fichas.
+
+CÓMO EMPEZAR EN LINUX
+---------------------
+1. Descarga «Grimorio-Linux.AppImage».
+2. Dale permiso de ejecución (clic derecho → Propiedades → Permisos, o en una
+   terminal: chmod +x Grimorio-Linux.AppImage) y ábrelo.
+
+JUGAR CON TU GRUPO
+------------------
+1. Uno abre «Sala online», pulsa «Crear sala», elige el juego y sus reglas, y
+   pasa el código de 6 letras a los demás.
+2. Los demás lo escriben en «Unirse a una sala».
+3. Quien crea la sala debe tener Grimorio abierto mientras dure la partida.
+
+ACTUALIZAR
+----------
+Descarga el archivo de la versión nueva y sustituye el anterior. Tus fichas
+siguen en Documentos\Grimorio.
+
+AVISOS
+------
+Grimorio es una aplicación de fans, gratuita y no oficial, que se ofrece «tal
+cual». No está afiliada a Paradox Interactive ni a Wizards of the Coast.
+
+Portions of the materials are the copyrights and trademarks of Paradox
+Interactive AB, and are used with permission. All rights reserved. For more
+information please visit worldofdarkness.com.
+
+This work includes material taken from the System Reference Document 5.1
+("SRD 5.1") by Wizards of the Coast LLC and available at
+https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is
+licensed under the Creative Commons Attribution 4.0 International License
+available at https://creativecommons.org/licenses/by/4.0/legalcode.
+Parte del material de la 3.5 procede del SRD 3.5 (Open Game License 1.0a).
+
+Un proyecto personal de JesusJacky.
